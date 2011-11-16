@@ -804,8 +804,8 @@
 			gateName="GATE"
 			parkingNumber="9">
 			<SceneryObject
-				lat="51.12584659728881"
-				lon="13.76407949005002"
+				lat="51.12580868540883"
+				lon="13.76389153030983"
 				alt="0.0M"
 				altitudeIsAgl="TRUE"
 				pitch="0.0"
@@ -821,8 +821,8 @@
 			gateName="GATE"
 			parkingNumber="10">
 			<SceneryObject
-				lat="51.12616695256994"
-				lon="13.76450673488051"
+				lat="51.12614167798328"
+				lon="13.76443289355401"
 				alt="0.0M"
 				altitudeIsAgl="TRUE"
 				pitch="0.0"
@@ -838,13 +838,13 @@
 			gateName="GATE"
 			parkingNumber="33">
 			<SceneryObject
-				lat="51.12539435795906"
-				lon="13.76647024310919"
+				lat="51.1253936734409"
+				lon="13.76661968789745"
 				alt="0.0M"
 				altitudeIsAgl="TRUE"
 				pitch="0.0"
 				bank="0.0"
-				heading="164.0"
+				heading="130.0"
 				imageComplexity="NORMAL">
 				<LibraryObject
 					name="{bfcdf52b-9142-415c-8318-03c1b92ca9d9}"
@@ -855,8 +855,8 @@
 			gateName="GATE"
 			parkingNumber="32">
 			<SceneryObject
-				lat="51.12562253132899"
-				lon="13.76606008807212"
+				lat="51.12568413813856"
+				lon="13.76597282104339"
 				alt="0.0M"
 				altitudeIsAgl="TRUE"
 				pitch="0.0"
@@ -872,8 +872,8 @@
 			gateName="GATE"
 			parkingNumber="31">
 			<SceneryObject
-				lat="51.12594379943383"
-				lon="13.76550448798643"
+				lat="51.12602251924605"
+				lon="13.76533540811826"
 				alt="0.0M"
 				altitudeIsAgl="TRUE"
 				pitch="0.0"
@@ -889,8 +889,8 @@
 			gateName="GATE"
 			parkingNumber="30">
 			<SceneryObject
-				lat="51.12622600406717"
-				lon="13.76494743341186"
+				lat="51.12631156908047"
+				lon="13.76470199489356"
 				alt="0.0M"
 				altitudeIsAgl="TRUE"
 				pitch="0.0"
@@ -990,26 +990,6 @@
 				spacing="91.44M"
 				pitch="3.0"/>
 			<Ils
-				lat="51.12264521530264"
-				lon="13.75202593563577"
-				alt="230.124M"
-				heading="220.87"
-				frequency="109.7"
-				end="SECONDARY"
-				range="50017.0M"
-				magvar="-1.0"
-				ident="IDRW"
-				width="4.554"
-				name="CAT II ILS 22"
-				backCourse="TRUE">
-				<GlideSlope
-					lat="51.14086601695772"
-					lon="13.77475325700735"
-					alt="230.124M"
-					pitch="3.0"
-					range="50017.0M"/>
-			</Ils>
-			<Ils
 				lat="51.14604074244502"
 				lon="13.7842026939225"
 				alt="230.124M"
@@ -1029,12 +1009,32 @@
 					pitch="3.0"
 					range="50017.0M"/>
 			</Ils>
+			<Ils
+				lat="51.12264521530264"
+				lon="13.75202593563577"
+				alt="230.124M"
+				heading="220.87"
+				frequency="109.7"
+				end="SECONDARY"
+				range="50017.0M"
+				magvar="-1.0"
+				ident="IDRW"
+				width="4.554"
+				name="CAT II ILS 22"
+				backCourse="TRUE">
+				<GlideSlope
+					lat="51.14086601695772"
+					lon="13.77475325700735"
+					alt="230.124M"
+					pitch="3.0"
+					range="50017.0M"/>
+			</Ils>
 		</Runway>
 		<Start
 			type="HELIPAD"
-			lat="51.132847786989"
-			lon="13.77203026602872"
-			alt="0.0M"
+			lat="51.12843890055176"
+			lon="13.77059552205251"
+			alt="230.124M"
 			heading="308.0"
 			number="01"
 			designator="NONE"/>
@@ -4801,24 +4801,6 @@
 			frequency="118.875"
 			type="ATIS"
 			name="EDDC"/>
-		<!--
-		<BackgroundImage
-			path="C:\Users\bergziege\Desktop\ED_AD_2_EDDC_2-7_en_2009-07-02.pdf.jpg"
-			visible="TRUE"
-			topLat="51.137206"
-			topLon="13.752988"
-			bottomLat="51.119879"
-			bottomLon="13.779379"/>
-		-->
-		<!--
-		<BackgroundImage
-			path="C:\Users\bergziege\Desktop\ED_AD_2_EDDC_2-5_en_2009-07-02.pdf.jpg"
-			visible="FALSE"
-			topLat="51.158961"
-			topLon="13.729217"
-			bottomLat="51.10713"
-			bottomLon="13.807882"/>
-		-->
 	</Airport>
 	<ExclusionRectangle
 		latitudeMinimum="51.12110930833742"
