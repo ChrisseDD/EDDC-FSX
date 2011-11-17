@@ -357,6 +357,85 @@
 					lon="13.78145991081977"/>
 			</Apron>
 		</Aprons>
+		<ApronEdgeLights>
+			<EdgeLights>
+				<Vertex
+					lat="51.13320210942254"
+					lon="13.75664477911368"/>
+				<Vertex
+					lat="51.13283703586317"
+					lon="13.75937184514669"/>
+			</EdgeLights>
+			<EdgeLights>
+				<Vertex
+					lat="51.13151364421039"
+					lon="13.75519034389608"/>
+				<Vertex
+					lat="51.13454831817278"
+					lon="13.76202618941882"/>
+			</EdgeLights>
+			<EdgeLights>
+				<Vertex
+					lat="51.13409197622355"
+					lon="13.75813557521173"/>
+				<Vertex
+					lat="51.13012180126525"
+					lon="13.75937184514669"/>
+				<Vertex
+					lat="51.12959700802364"
+					lon="13.75897187546185"/>
+				<Vertex
+					lat="51.12893531219726"
+					lon="13.75606300502664"/>
+			</EdgeLights>
+			<EdgeLights>
+				<Vertex
+					lat="51.13368126846925"
+					lon="13.75813557521173"/>
+				<Vertex
+					lat="51.13258604779109"
+					lon="13.75540850917872"/>
+				<Vertex
+					lat="51.1345939523677"
+					lon="13.75642661383104"/>
+			</EdgeLights>
+			<EdgeLights>
+				<Vertex
+					lat="51.13413761041847"
+					lon="13.75689930527677"/>
+				<Vertex
+					lat="51.1327001332784"
+					lon="13.75729927496161"/>
+				<Vertex
+					lat="51.13406915912609"
+					lon="13.75959001042933"/>
+				<Vertex
+					lat="51.13541536787631"
+					lon="13.75919004074449"/>
+				<Vertex
+					lat="51.13404634202863"
+					lon="13.75697202703764"/>
+			</EdgeLights>
+			<EdgeLights>
+				<Vertex
+					lat="51.13363563427432"
+					lon="13.75733563584204"/>
+				<Vertex
+					lat="51.1324035110114"
+					lon="13.75962637130977"/>
+			</EdgeLights>
+			<EdgeLights>
+				<Vertex
+					lat="51.1354838191687"
+					lon="13.75482673509168"/>
+				<Vertex
+					lat="51.13454831817278"
+					lon="13.75733563584204"/>
+				<Vertex
+					lat="51.13539255077885"
+					lon="13.75762652288557"/>
+			</EdgeLights>
+		</ApronEdgeLights>
 		<BlastFence
 			profile="{a8beb882-f11f-4743-b09b-34f45f380802}">
 			<Vertex
@@ -962,7 +1041,8 @@
 				surface="CONCRETE"/>
 			<ApproachLights
 				end="PRIMARY"
-				system="NONE"
+				system="RAIL"
+				strobes="10"
 				reil="TRUE"
 				touchdown="FALSE"
 				endLights="TRUE"/>
@@ -990,26 +1070,6 @@
 				spacing="91.44M"
 				pitch="3.0"/>
 			<Ils
-				lat="51.14604074244502"
-				lon="13.7842026939225"
-				alt="230.124M"
-				heading="40.87"
-				frequency="110.5"
-				end="PRIMARY"
-				range="50017.0M"
-				magvar="-1.0"
-				ident="IDRE"
-				width="3.977"
-				name="CAT II ILS 04"
-				backCourse="TRUE">
-				<GlideSlope
-					lat="51.12738271243725"
-					lon="13.75621983644461"
-					alt="230.124M"
-					pitch="3.0"
-					range="50017.0M"/>
-			</Ils>
-			<Ils
 				lat="51.12264521530264"
 				lon="13.75202593563577"
 				alt="230.124M"
@@ -1025,6 +1085,26 @@
 				<GlideSlope
 					lat="51.14086601695772"
 					lon="13.77475325700735"
+					alt="230.124M"
+					pitch="3.0"
+					range="50017.0M"/>
+			</Ils>
+			<Ils
+				lat="51.14604074244502"
+				lon="13.7842026939225"
+				alt="230.124M"
+				heading="40.87"
+				frequency="110.5"
+				end="PRIMARY"
+				range="50017.0M"
+				magvar="-1.0"
+				ident="IDRE"
+				width="3.977"
+				name="CAT II ILS 04"
+				backCourse="TRUE">
+				<GlideSlope
+					lat="51.12738271243725"
+					lon="13.75621983644461"
 					alt="230.124M"
 					pitch="3.0"
 					range="50017.0M"/>
@@ -1591,6 +1671,41 @@
 			type="NORMAL"
 			lat="51.12805048830155"
 			lon="13.76613974312493"/>
+		<TaxiwayPoint
+			index="203"
+			type="NORMAL"
+			lat="51.13357764681118"
+			lon="13.76766431599512"/>
+		<TaxiwayPoint
+			index="204"
+			type="NORMAL"
+			lat="51.1269108997427"
+			lon="13.75851095426661"/>
+		<TaxiwayPoint
+			index="205"
+			type="NORMAL"
+			lat="51.12455176966954"
+			lon="13.75525283984656"/>
+		<TaxiwayPoint
+			index="206"
+			type="NORMAL"
+			lat="51.1390116474588"
+			lon="13.77512515175992"/>
+		<TaxiwayPoint
+			index="207"
+			type="NORMAL"
+			lat="51.14375248735937"
+			lon="13.78163469668847"/>
+		<TaxiwayPoint
+			index="208"
+			type="NORMAL"
+			lat="51.13407829130978"
+			lon="13.76943671136246"/>
+		<TaxiwayPoint
+			index="209"
+			type="NORMAL"
+			lat="51.13450725635888"
+			lon="13.76988031784409"/>
 		<TaxiwayParking
 			index="70"
 			lat="51.13390120123842"
@@ -1600,7 +1715,7 @@
 			type="RAMP_GA_SMALL"
 			name="PARKING"
 			number="54"
-			pushBack="BOTH"/>
+			pushBack="NONE"/>
 		<TaxiwayParking
 			index="71"
 			lat="51.13370914994235"
@@ -1610,7 +1725,7 @@
 			type="RAMP_GA_SMALL"
 			name="PARKING"
 			number="53"
-			pushBack="BOTH"/>
+			pushBack="NONE"/>
 		<TaxiwayParking
 			index="72"
 			lat="51.13351631972524"
@@ -1620,7 +1735,7 @@
 			type="RAMP_GA_SMALL"
 			name="PARKING"
 			number="52"
-			pushBack="BOTH"/>
+			pushBack="NONE"/>
 		<TaxiwayParking
 			index="73"
 			lat="51.13331116416107"
@@ -1630,7 +1745,7 @@
 			type="RAMP_GA_SMALL"
 			name="PARKING"
 			number="51"
-			pushBack="BOTH"/>
+			pushBack="NONE"/>
 		<TaxiwayParking
 			index="117"
 			lat="51.13159739350671"
@@ -1830,7 +1945,7 @@
 			type="GATE_MEDIUM"
 			name="GATE"
 			number="33"
-			pushBack="BOTH"/>
+			pushBack="LEFT"/>
 		<TaxiwayParking
 			index="181"
 			lat="51.12585663691345"
@@ -1840,7 +1955,7 @@
 			type="GATE_MEDIUM"
 			name="GATE"
 			number="32"
-			pushBack="BOTH"/>
+			pushBack="LEFT"/>
 		<TaxiwayParking
 			index="182"
 			lat="51.12622627774335"
@@ -1850,7 +1965,7 @@
 			type="GATE_MEDIUM"
 			name="GATE"
 			number="31"
-			pushBack="BOTH"/>
+			pushBack="LEFT"/>
 		<TaxiwayParking
 			index="183"
 			lat="51.12649460960505"
@@ -1860,7 +1975,7 @@
 			type="GATE_MEDIUM"
 			name="GATE"
 			number="30"
-			pushBack="BOTH"/>
+			pushBack="LEFT"/>
 		<TaxiwayParking
 			index="184"
 			lat="51.12621532547044"
@@ -1910,7 +2025,7 @@
 			type="GATE_MEDIUM"
 			name="PARKING"
 			number="38"
-			pushBack="BOTH"/>
+			pushBack="RIGHT"/>
 		<TaxiwayParking
 			index="194"
 			lat="51.12751898724672"
@@ -1920,7 +2035,7 @@
 			type="GATE_MEDIUM"
 			name="PARKING"
 			number="37"
-			pushBack="BOTH"/>
+			pushBack="RIGHT"/>
 		<TaxiwayParking
 			index="195"
 			lat="51.12729309557795"
@@ -1930,7 +2045,7 @@
 			type="GATE_MEDIUM"
 			name="PARKING"
 			number="36"
-			pushBack="BOTH"/>
+			pushBack="RIGHT"/>
 		<TaxiwayParking
 			index="196"
 			lat="51.12707404911127"
@@ -1940,7 +2055,7 @@
 			type="GATE_MEDIUM"
 			name="PARKING"
 			number="35"
-			pushBack="BOTH"/>
+			pushBack="RIGHT"/>
 		<TaxiwayParking
 			index="197"
 			lat="51.12685538284976"
@@ -1950,7 +2065,7 @@
 			type="GATE_MEDIUM"
 			name="PARKING"
 			number="34"
-			pushBack="BOTH"/>
+			pushBack="RIGHT"/>
 		<TaxiwayParking
 			index="202"
 			lat="51.12461767092691"
@@ -1963,6 +2078,86 @@
 			pushBack="BOTH"/>
 		<TaxiwayPath
 			type="TAXI"
+			start="1"
+			end="207"
+			width="30.48M"
+			weightLimit="500000"
+			surface="CONCRETE"
+			drawSurface="FALSE"
+			drawDetail="FALSE"
+			centerLine="TRUE"
+			centerLineLighted="TRUE"
+			leftEdge="NONE"
+			leftEdgeLighted="FALSE"
+			rightEdge="NONE"
+			rightEdgeLighted="FALSE"
+			name="4"/>
+		<TaxiwayPath
+			type="TAXI"
+			start="2"
+			end="206"
+			width="15.0M"
+			weightLimit="500000"
+			surface="CONCRETE"
+			drawSurface="FALSE"
+			drawDetail="FALSE"
+			centerLine="TRUE"
+			centerLineLighted="TRUE"
+			leftEdge="NONE"
+			leftEdgeLighted="FALSE"
+			rightEdge="NONE"
+			rightEdgeLighted="FALSE"
+			name="5"/>
+		<TaxiwayPath
+			type="TAXI"
+			start="5"
+			end="205"
+			width="30.48M"
+			weightLimit="500000"
+			surface="CONCRETE"
+			drawSurface="FALSE"
+			drawDetail="FALSE"
+			centerLine="TRUE"
+			centerLineLighted="TRUE"
+			leftEdge="NONE"
+			leftEdgeLighted="FALSE"
+			rightEdge="NONE"
+			rightEdgeLighted="FALSE"
+			name="2"/>
+		<TaxiwayPath
+			type="TAXI"
+			start="204"
+			end="4"
+			width="30.48M"
+			weightLimit="500000"
+			surface="CONCRETE"
+			drawSurface="FALSE"
+			drawDetail="FALSE"
+			centerLine="TRUE"
+			centerLineLighted="TRUE"
+			leftEdge="NONE"
+			leftEdgeLighted="FALSE"
+			rightEdge="NONE"
+			rightEdgeLighted="FALSE"
+			name="6"/>
+		<TaxiwayPath
+			type="TAXI"
+			start="203"
+			end="3"
+			width="22.0M"
+			weightLimit="500000"
+			surface="CONCRETE"
+			drawSurface="FALSE"
+			drawDetail="FALSE"
+			centerLine="TRUE"
+			centerLineLighted="TRUE"
+			leftEdge="NONE"
+			leftEdgeLighted="FALSE"
+			rightEdge="NONE"
+			rightEdgeLighted="FALSE"
+			name="1"/>
+		<TaxiwayPath
+			type="TAXI"
 			start="164"
 			end="162"
 			width="15.0M"
@@ -1971,9 +2166,9 @@
 			drawSurface="TRUE"
 			drawDetail="TRUE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
-			leftEdgeLighted="FALSE"
+			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
 			rightEdgeLighted="FALSE"
 			name="11"/>
@@ -1987,11 +2182,11 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
-			rightEdgeLighted="TRUE"
+			rightEdgeLighted="FALSE"
 			name="3"/>
 		<TaxiwayPath
 			type="PARKING"
@@ -2211,11 +2406,11 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
-			rightEdgeLighted="FALSE"
+			rightEdgeLighted="TRUE"
 			name="12"/>
 		<TaxiwayPath
 			type="TAXI"
@@ -2227,7 +2422,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -2243,11 +2438,11 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
-			rightEdgeLighted="FALSE"
+			rightEdgeLighted="TRUE"
 			name="13"/>
 		<TaxiwayPath
 			type="TAXI"
@@ -2259,9 +2454,9 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
-			leftEdgeLighted="FALSE"
+			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
 			rightEdgeLighted="FALSE"
 			name="3"/>
@@ -2275,11 +2470,11 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
-			leftEdgeLighted="FALSE"
+			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
-			rightEdgeLighted="FALSE"
+			rightEdgeLighted="TRUE"
 			name="9"/>
 		<TaxiwayPath
 			type="PARKING"
@@ -2451,11 +2646,11 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
-			leftEdgeLighted="FALSE"
+			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
-			rightEdgeLighted="FALSE"
+			rightEdgeLighted="TRUE"
 			name="10"/>
 		<TaxiwayPath
 			type="PARKING"
@@ -2915,9 +3110,9 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
-			leftEdgeLighted="FALSE"
+			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
 			rightEdgeLighted="FALSE"
 			name="8"/>
@@ -2931,11 +3126,11 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="SOLID"
-			rightEdgeLighted="FALSE"
+			rightEdgeLighted="TRUE"
 			name="3"/>
 		<TaxiwayPath
 			type="PARKING"
@@ -3091,11 +3286,11 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
-			rightEdgeLighted="FALSE"
+			rightEdgeLighted="TRUE"
 			name="9"/>
 		<TaxiwayPath
 			type="TAXI"
@@ -3107,7 +3302,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3123,9 +3318,9 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
-			leftEdgeLighted="FALSE"
+			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
 			rightEdgeLighted="FALSE"
 			name="8"/>
@@ -3139,9 +3334,9 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
-			leftEdgeLighted="FALSE"
+			leftEdgeLighted="TRUE"
 			rightEdge="NONE"
 			rightEdgeLighted="FALSE"
 			name="8"/>
@@ -3155,7 +3350,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3171,7 +3366,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3187,7 +3382,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3203,7 +3398,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3219,7 +3414,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3235,7 +3430,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3251,7 +3446,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3267,7 +3462,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3283,7 +3478,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3299,7 +3494,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3315,7 +3510,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3331,7 +3526,7 @@
 			drawSurface="TRUE"
 			drawDetail="TRUE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3347,7 +3542,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3363,7 +3558,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3379,7 +3574,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3395,7 +3590,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="NONE"
 			leftEdgeLighted="FALSE"
 			rightEdge="NONE"
@@ -3427,7 +3622,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3537,7 +3732,7 @@
 			designator="NONE"/>
 		<TaxiwayPath
 			type="TAXI"
-			start="3"
+			start="203"
 			end="7"
 			width="22.0M"
 			weightLimit="500000"
@@ -3545,7 +3740,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3561,7 +3756,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3577,7 +3772,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3585,7 +3780,7 @@
 			name="1"/>
 		<TaxiwayPath
 			type="TAXI"
-			start="5"
+			start="205"
 			end="9"
 			width="30.48M"
 			weightLimit="500000"
@@ -3641,7 +3836,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3657,7 +3852,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3665,7 +3860,7 @@
 			name="3"/>
 		<TaxiwayPath
 			type="TAXI"
-			start="1"
+			start="207"
 			end="30"
 			width="30.48M"
 			weightLimit="500000"
@@ -3673,7 +3868,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3689,7 +3884,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3705,7 +3900,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3713,7 +3908,7 @@
 			name="4"/>
 		<TaxiwayPath
 			type="TAXI"
-			start="2"
+			start="206"
 			end="31"
 			width="30.48M"
 			weightLimit="500000"
@@ -3721,7 +3916,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3737,7 +3932,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3753,7 +3948,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3769,7 +3964,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3785,7 +3980,7 @@
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
@@ -3794,14 +3989,14 @@
 		<TaxiwayPath
 			type="TAXI"
 			start="32"
-			end="4"
+			end="204"
 			width="30.48M"
 			weightLimit="500000"
 			surface="CONCRETE"
 			drawSurface="FALSE"
 			drawDetail="FALSE"
 			centerLine="TRUE"
-			centerLineLighted="FALSE"
+			centerLineLighted="TRUE"
 			leftEdge="SOLID"
 			leftEdgeLighted="TRUE"
 			rightEdge="SOLID"
